@@ -21,7 +21,7 @@ legend {
 
 body::before {
   content: "";
-  height: 465px;
+  height: 29rem;
   width: 100%;
 
   background: #293241;
@@ -40,48 +40,48 @@ header {
   justify-content: center;
   align-items: center;
 
-  margin: 107px 0px 33.5px;
+  margin: 6.68rem 0px 2rem;
 }
 
 header p {
-  height: 46px;
+  height: 2.87rem;
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .form-intro::before {
   content: "";
-  width: 750px;
-  height: 133px;
+  width: 46.87rem;
+  height: 8.3rem;
 
   background: #f67669;
 
   position: absolute;
   z-index: -1;
 
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 1.25rem 1.25rem 0px 0px;
 }
 
 .form-intro {
-  width: 750px;
+  width: 46.85rem;
   margin: auto;
 }
 
 .form-intro h1 {
   margin: auto;
-  padding: 50px 275px;
+  padding: 3.1rem 17rem;
 
   color: #fff;
 
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2.1rem;
   font-weight: 400;
 }
 
 form {
-  padding: 31px 64px 66px;
+  padding: 1.9rem 4rem 4.1rem;
   background: #fff;
 }
 
@@ -91,38 +91,38 @@ fieldset {
 
 .input-wrapper label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   color: #4e4958;
 }
 
 .input-wrapper label span {
   color: #c1bccc;
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 .input-wrapper input,
 textarea {
-  height: 56px;
-  width: 300px;
+  height: 3.5rem;
+  width: 18.75rem;
 
   background: #e6e6f0;
 
   border: none;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .input-info {
   display: flex;
-  gap: 22px;
+  gap: 1.3rem;
 }
 
 #input-email {
   width: 100%;
-  margin-bottom: 31px;
+  margin-bottom: 1.9rem;
 }
 
 .label-email {
-  margin-top: 19px;
+  margin-top: 1.18rem;
 }
 
 .reader-information {
@@ -131,46 +131,61 @@ textarea {
   width: 100%;
 
   text-align: center;
-  font-size: 24px;
-  line-height: 34px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 
   border-bottom: 1px solid #e6e6f0;
-  padding-bottom: 8px;
+  padding-bottom: 0.5rem;
 
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .leader-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 2rem;
 }
 
 textarea {
   width: 100%;
-  padding: 10px;
-  height: 166px;
+  padding: 0.62rem;
+  height: 10.37rem;
 
   resize: none;
 }
 
-.input-check label {
-  color: #4e4958;
+.input-check label::before {
+  content: '';
+  width: 24px;
+  height: 24px; 
 
-  font-size: 14px;
-  line-height: 24px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
 }
 
-#doubts {
+.input-check input {
   opacity: 0;
 }
 
-.input-check label::before {
-  background: url("/images/Checkbox.svg");
+.input-check label {                  
+  color: #4e4958;
+
+  display: flex;
+  gap: 0.5rem;
+
+  font-size: 0.85rem;
+  line-height: 1.5rem;
+}
+
+
+.input-check input:checked + label::before {
+  background: url("/images/Vector\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .scheduling-mentoring {
-  margin: 36px 0px 63px;
+  margin: 2.25rem 0px 3.9rem;
 }
 
 .next-mentoring {
@@ -180,20 +195,20 @@ textarea {
 }
 
 .input-timer {
-  max-width: 140px;
+  max-width: 8.75rem;
 }
 
 .input-submit {
   width: 100%;
-  padding: 12px 286px;
-  
-  border-radius: 8px;
+  padding: 0.75rem 17.87rem;
+
+  border-radius: 0.5rem;
   border: none;
 
-  background: #F67669;
+  background: #f67669;
   color: #fff;
 
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 1.25rem;
+  line-height: 1.62rem;
   font-family: "Staatliches", sans-serif;
 }
