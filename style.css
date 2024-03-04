@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 
   background: #bfd7e4;
+  padding: 4rem;
 }
 
 input {
@@ -40,7 +41,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  margin: 6.68rem 0px 2rem;
+  margin: 0rem 0rem 2rem;
 }
 
 header p {
@@ -83,6 +84,8 @@ header h1 {
 form {
   padding: 1.9rem 4rem 4.1rem;
   background: #fff;
+
+  border-radius: 0rem 0rem 1.25rem 1.25rem;
 }
 
 fieldset {
