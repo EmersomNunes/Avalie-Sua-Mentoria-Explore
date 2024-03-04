@@ -166,7 +166,16 @@ textarea {
   border-radius: 8px;
 }
 
+.input-check {
+  position: relative;
+}
+
 .input-check input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
   opacity: 0;
 }
 
