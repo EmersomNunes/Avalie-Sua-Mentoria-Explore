@@ -23,21 +23,71 @@
       <h1>Informações pessoais</h1>
       <form>
         <fieldset>
-          <div class="input-wrapper">
-            <label for="name">Nome</label>
-            <input name="name" type="text" />
+          <div class="input-info">
+            <div class="input-wrapper">
+              <label for="name">Nome</label>
+              <input name="name" type="text" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="last-name">Sobrenome</label>
+              <input name="last-name" type="text" />
+            </div>
           </div>
 
           <div class="input-wrapper">
-            <label for="name">Nome</label>
-            <input name="name" type="text" />
-          </div>
-          
-          <div class="input-wrapper">
-            <label for="name">Nome</label>
-            <input name="name" type="text" />
+            <label for="email" class="label-email">
+              Email <span>(digite um email válido)</span>
+            </label>
+            <input name="email" type="text" id="input-email" />
           </div>
         </fieldset>
+
+        <fieldset>
+          <legend class="reader-information">Informações do Leitor</legend>
+          <div class="leader-container">
+            <div class="input-wrapper">
+              <label for="leader-name">Selecione quem foi seu mentor</label>
+              <input name="leader-name" type="text" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="feedback">Feedback sobre o mentor</label>
+              <textarea name="feedback" type="text"></textarea>
+            </div>
+
+            <div class="input-check">
+              <input type="checkbox" name="check" id="doubts" />
+              <label for="check"
+                >Todas as minhas dúvidas foram esclarecidas durante a
+                mentoria.</label
+              >
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="scheduling-mentoring">
+          <legend class="reader-information">Agendando Próxima Mentoria</legend>
+
+          <div class="input-info">
+            <div class="input-wrapper">
+              <label for="date">Data <span>(DD/MM/AAAA)</span></label>
+              <input name="date" type="date" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="start">Das</label>
+              <input name="start" type="time" class="input-timer" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="end">Ate</label>                                                  
+              <input name="end" type="time" class="input-timer" />
+            </div>
+          </div>
+        </fieldset>
+
+        <input type="submit" class="input-submit" value="SALVAR">
       </form>
     </div>
   </body>
